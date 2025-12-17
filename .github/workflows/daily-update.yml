@@ -1,0 +1,50 @@
+name: 📡 Actualización diaria Mercado Público
+
+on:
+  schedule:
+    - cron: '30 11 * * *' # todos los días
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch licitaciones
+        run: npm run fetch
+        env:
+          MERCADOPUBLICO_TICKET: ${{ secrets.MERCADOPUBLICO_TICKET }}
+
+      - name: Generate opportunities
+        run: npm run opportunities
+
+      - name: Generate industries markdown
+        run: npm run industries
+
+      - name: Generate badges
+        run: npm run badges
+
+      - name: Commit changes
+        run: |
+          git config user.name "mercadopublico-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git status
+          git diff --quiet || (
+            git add .
+            git commit -m "📡 Actualización diaria Mercado Público"
+            git push
+          )

@@ -1,0 +1,18 @@
+{
+  "name": "chile-industria-daily",
+  "private": true,
+  "type": "module",
+  "scripts": {
+  "fetch": "tsx scripts/fetch.ts",
+  "opportunities": "tsx scripts/generate-opportunities.ts",
+  "industries": "tsx scripts/generate-industries.ts",
+  "badges": "tsx scripts/generate-badges.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "tsx": "^4.7.0"
+  }
+}
