@@ -2,11 +2,12 @@ name: 📡 Actualización diaria Mercado Público
 
 on:
   schedule:
-    - cron: '30 11 * * *' # todos los días
+    - cron: '30 11 * * *' 
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -38,13 +39,15 @@ jobs:
       - name: Generate badges
         run: npm run badges
 
-      - name: Commit changes
-        run: |
-          git config user.name "mercadopublico-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git status
-          git diff --quiet || (
-            git add .
-            git commit -m "📡 Actualización diaria Mercado Público"
-            git push
-          )
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "📡 Actualización diaria Mercado Público"
+          title: "📡 Actualización diaria Mercado Público"
+          body: |
+            Actualización automática:
+            - Licitaciones del día
+            - Oportunidades por industria
+            - Badges actualizados
+          branch: bot/daily-update
+          delete-branch: true
