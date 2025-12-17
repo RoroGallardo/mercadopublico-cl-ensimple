@@ -5,13 +5,15 @@ Oportunidades públicas actualizadas diariamente, clasificadas por industria.
 ## Industrias
 
 - Tecnología  
-  ![Tecnología](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TU_USER/TU_REPO/main/badges/tecnologia.json)
+  ![Tecnología](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/rorogallardo/mercadopublico-cl-ensimple/main/badges/tecnologia.json&cacheSeconds=300)
 
 - Minería  
-  ![Minería](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TU_USER/TU_REPO/main/badges/mineria.json)
+  ![Minería](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/rorogallardo/mercadopublico-cl-ensimple/main/badges/mineria.json&cacheSeconds=300)
+
 
 - IoT  
-  ![IoT](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TU_USER/TU_REPO/main/badges/iot.json)
+ ![IoT](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/rorogallardo/mercadopublico-cl-ensimple/main/badges/iot.json&cacheSeconds=300)
+
 
 ## Acceso rápido
 
