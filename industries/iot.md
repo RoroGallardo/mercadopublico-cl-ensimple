@@ -4,7 +4,9 @@
 
 | Código | Organismo | Cierre | Nombre | Link |
 |------|----------|--------|-------|------|
-_No se detectaron oportunidades para esta industria hoy._
+
+| 14-41-LE25 | No informado | 2025-12-29 | SERVICIO DE SEGUIMIENTO Y MONITOREO DE PRENSA | [Ver](https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=14-41-LE25) |
+
 
 ---
 
