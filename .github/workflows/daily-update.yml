@@ -42,12 +42,13 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
           commit-message: "📡 Actualización diaria Mercado Público"
           title: "📡 Actualización diaria Mercado Público"
           body: |
-            Actualización automática:
-            - Licitaciones del día
-            - Oportunidades por industria
-            - Badges actualizados
+            Actualización automática diaria:
+            - Licitaciones
+            - Oportunidades
+            - Badges
           branch: bot/daily-update
           delete-branch: true
