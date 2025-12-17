@@ -10,12 +10,36 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3778-28-LE25"
     },
     {
+      "codigo": "4113-60-LE25",
+      "nombre": "CONTRATACION ARTISTAS PARA ANIVERSARIO N45 MELIPEU",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-22",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=4113-60-LE25"
+    },
+    {
+      "codigo": "624-29-L125",
+      "nombre": "SISTEMA DE INVESTIGACIÓN JURÍDICA ASISTIDO POR IA ",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-22",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=624-29-L125"
+    },
+    {
       "codigo": "1946-9-LE25",
       "nombre": "Tenidas corporativas",
       "organismo": "No informado",
       "fechaCierre": "2025-12-23",
       "tipo": "No especificado",
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1946-9-LE25"
+    },
+    {
+      "codigo": "2428-93-LE25",
+      "nombre": "ANTIPARASITARIOS",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-23",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2428-93-LE25"
     },
     {
       "codigo": "3030-37-LE25",
@@ -34,6 +58,14 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057547-524-LE25"
     },
     {
+      "codigo": "3682-18-LE25",
+      "nombre": "JUEGOS ACTIVIDADES DE VERANO",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-24",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3682-18-LE25"
+    },
+    {
       "codigo": "707427-12-L125",
       "nombre": "SERVICIO DE INSPECCIÓN, MANTENIMIENTO PREVENTIVO DE ASCENSORES DE SALAS CUNAS Y JARDINES INFANTILES DE FUNDACIÓN INTEGRA REGION DE MAGALLANES",
       "organismo": "No informado",
@@ -48,6 +80,22 @@
       "fechaCierre": "2025-12-24",
       "tipo": "No especificado",
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=707427-13-L125"
+    },
+    {
+      "codigo": "1248381-8-LE25",
+      "nombre": "INDUMENTARIA TAPATI RAPA NUI 2026",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1248381-8-LE25"
+    },
+    {
+      "codigo": "1464-91-LE25",
+      "nombre": "Reactivos Laboratorio 2025",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1464-91-LE25"
     },
     {
       "codigo": "2111-372-LE25",
@@ -74,12 +122,52 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2658-39-L125"
     },
     {
+      "codigo": "3082-32-LE25",
+      "nombre": "Servició de Sonido Iluminación y Pantallas Festival de la Voz Panquehue 2026",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3082-32-LE25"
+    },
+    {
+      "codigo": "5155-44-LE25",
+      "nombre": "1056 - Renovación licenciamiento y soporte para plataforma de capacitación y concientización en seguridad de la información",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=5155-44-LE25"
+    },
+    {
       "codigo": "1001-50-LP25",
       "nombre": "SERVICIO DE SANITIZACION Y OTROS",
       "organismo": "No informado",
       "fechaCierre": "2025-12-29",
       "tipo": "No especificado",
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1001-50-LP25"
+    },
+    {
+      "codigo": "1057544-433-LP25",
+      "nombre": "ARRIENDO DE EQUIPO DE IDENTIFICACION MICROBIANA MEDIANTE ESPECTROMETRIA DE MASA MALDITOF PARA LABORATORIO CLINICO",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057544-433-LP25"
+    },
+    {
+      "codigo": "2132-22-LE25",
+      "nombre": "Servicio de Transporte  Constitución - Empedrado",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2132-22-LE25"
+    },
+    {
+      "codigo": "2785-119-LE25",
+      "nombre": "SDA 5237 LICENCIAS DE SOFTWARE CAD BIM Y OTROS",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2785-119-LE25"
     },
     {
       "codigo": "3238-2-LE25",
@@ -106,6 +194,14 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=359-156-LE25"
     },
     {
+      "codigo": "852-43-LE25",
+      "nombre": "SUMINISTRO DE SERVICIO DE ASEO PARA OFICINAS Y CENTRO LOGÍSTICO DE LA DIRECCIÓN REGIONAL DE LA JUNTA NACIONAL DE JARDINES INFANTILES REGIÓN DE LA ARAUCANÍA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=852-43-LE25"
+    },
+    {
       "codigo": "2409-199-LE25",
       "nombre": "ESTRATEGIAS DE ABORDAJE Y CONTENCIÓN DE SITUACIONES DESAFIANTES DE PÁRVULOS AUTISTAS EN NIVELES NT1 Y NT2",
       "organismo": "No informado",
@@ -114,108 +210,36 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2409-199-LE25"
     },
     {
-      "codigo": "1057384-171-L125",
-      "nombre": "SERVICIO DE CONECTIVIDAD SATELITAL STARLINK CONTINGENCIA. ",
+      "codigo": "3179-24-LE25",
+      "nombre": "SERVICIO DE RETIRO TRANSPORTE Y DESTRUCCIÓN DE VESTUARIO Y CALZADO DE CARABINEROS DE CHILE POR 24 MESES",
       "organismo": "No informado",
-      "fechaCierre": "2026-01-01",
+      "fechaCierre": "2025-12-30",
       "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057384-171-L125"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3179-24-LE25"
     },
     {
-      "codigo": "548874-135-CO25",
-      "nombre": "LICENCIAMIENTO SOFTWARE LOOKBACK-OPTIMAL WORKSHOP",
+      "codigo": "5420-29-LP25",
+      "nombre": "Cámaras de seguridad para jardines infantiles",
       "organismo": "No informado",
-      "fechaCierre": "2026-01-02",
+      "fechaCierre": "2025-12-30",
       "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=548874-135-CO25"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=5420-29-LP25"
     },
     {
-      "codigo": "1057402-299-LP25",
-      "nombre": "Mantención Preventiva y Correctiva a Máquinas de Hemodiálisis del Hospital Clínico de Magallanes",
+      "codigo": "630-50-LE25",
+      "nombre": "INSTALACIÓN Y MONITOREO SISTEMA DE SEGURIDAD",
       "organismo": "No informado",
-      "fechaCierre": "2026-01-06",
+      "fechaCierre": "2025-12-30",
       "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057402-299-LP25"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=630-50-LE25"
     },
     {
-      "codigo": "4024-20-LE25",
-      "nombre": "CONSTRUCCION D MODULOSHABITACIONALES BAÑOS CON FOSAS SEPTICA Y REPARACIONDE VIVIENDA",
+      "codigo": "889473-106-LE25",
+      "nombre": "SC 6584 - Prov e instalación modulos tipo comedor",
       "organismo": "No informado",
-      "fechaCierre": "2026-01-06",
+      "fechaCierre": "2025-12-30",
       "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=4024-20-LE25"
-    },
-    {
-      "codigo": "1499-227-LP25",
-      "nombre": "CATÉTER TOMOGRAFÍA DE COHERENCIA ÓPTICA OCT-OFDI",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-07",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1499-227-LP25"
-    },
-    {
-      "codigo": "886954-350-LP25",
-      "nombre": "CONVENIO SUMINISTRO SISTEMA DORSAL POSTERIOR DE COLUMNA MALETA EN TRÁNSITO",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-07",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=886954-350-LP25"
-    },
-    {
-      "codigo": "2928-29-LE25",
-      "nombre": "DISEÑO Y CONSTRUCCIÓN SISTEMA DE RIEGO QUELLÓN",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-08",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2928-29-LE25"
-    },
-    {
-      "codigo": "5858-16-LE25",
-      "nombre": "CONSERVACION SISTEMAS FOTOV. DIVERSAS LOCALIDADES",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-08",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=5858-16-LE25"
-    },
-    {
-      "codigo": "621-1279-LP25",
-      "nombre": "TRIMEBUTINA 100 MG CMCM REC 1000022100",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-09",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=621-1279-LP25"
-    },
-    {
-      "codigo": "1422824-59-LR25",
-      "nombre": "CONTRATO DE SUMINISTRO DE HEMOSTATICOS PARA EL HOSPITAL CARLOS VAN BUREN",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-16",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1422824-59-LR25"
-    },
-    {
-      "codigo": "1667-34-LR25",
-      "nombre": "Servicio de realización de cirugías cardiacas y trasplante cardiaco incluye equipo médico y equipo no médico fuera del horario institucional o funcionario por 9 meses",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-16",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1667-34-LR25"
-    },
-    {
-      "codigo": "941739-22-LP25",
-      "nombre": "ESTUDIO DE PREFACTIBILIDAD CONSTRUCCIÓN DEL CCIC",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-16",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=941739-22-LP25"
-    },
-    {
-      "codigo": "608-131-LR25",
-      "nombre": "Adquisición de sistemas de Tromboctomía mecánico y fármaco-mecánico",
-      "organismo": "No informado",
-      "fechaCierre": "2026-01-19",
-      "tipo": "No especificado",
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=608-131-LR25"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=889473-106-LE25"
     }
   ],
   "mineria": [
@@ -228,5 +252,14 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=4063-7-LR25"
     }
   ],
-  "iot": []
+  "iot": [
+    {
+      "codigo": "14-41-LE25",
+      "nombre": "SERVICIO DE SEGUIMIENTO Y MONITOREO DE PRENSA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=14-41-LE25"
+    }
+  ]
 }
