@@ -2,12 +2,60 @@
   "fecha": "20251218",
   "tecnologia": [
     {
+      "codigo": "2483-323-LE25",
+      "nombre": "ADQUISICIÓN DE ARTÍCULOS CORPORATIVOS DE ALGODÓN CON SERIGRAFÍA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-23",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2483-323-LE25"
+    },
+    {
+      "codigo": "2467-242-L125",
+      "nombre": "NUEVO LLAMADO PARA LA ADQUISICIÓN DE MATERIALES DE TRABAJO DEPARTAMENTO DE INFORMÁTICA CHILLÁN",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=2467-242-L125"
+    },
+    {
+      "codigo": "3656-189-L125",
+      "nombre": "SERVICIOS DE ASESORIA EN MATERIAS ADMINISTRATIVAS ESTATUTARIAS FINANCIERAS CONTABLES PRESUPUESTARIAS IMPLEMENTACION DE LAS NICSP Y DE CONTROL INTERNO INHERENTE A LAS GESTION MUNICIPAL PARA LA MUNICIPALIDAD DE REQUINOA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3656-189-L125"
+    },
+    {
+      "codigo": "5349-178-L125",
+      "nombre": "SERVICIO DE MANTENIMIENTO PREVENTIVO DE EQUIPOS ECOGRAFOS Y ECOTOMOGRAFOS DEL HOSPITAL PROVINCIAL DEL HUASCO MONSEÑOR FERNANDO ARIZTÍA RUIZ",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-26",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=5349-178-L125"
+    },
+    {
       "codigo": "1057499-88-LP25",
       "nombre": "ADQUISICIÓN DE LICENCIAS DE SOFTWARE TABLEAU",
       "organismo": "No informado",
       "fechaCierre": "2025-12-29",
       "tipo": "No especificado",
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057499-88-LP25"
+    },
+    {
+      "codigo": "1509-97-LE25",
+      "nombre": "SERVICIO DE VIGILANCIA PARA HOSPITAL DE TIL TIL",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1509-97-LE25"
+    },
+    {
+      "codigo": "1554-52-LE25",
+      "nombre": "Servicios de Desratización Sanitización y Desinsectación HRC",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1554-52-LE25"
     },
     {
       "codigo": "3132-34-LE25",
@@ -26,6 +74,70 @@
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3132-35-LE25"
     },
     {
+      "codigo": "407-153-LE25",
+      "nombre": "MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE AUTOCLAVE CENTRAL ESTERILIZACIÓN",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=407-153-LE25"
+    },
+    {
+      "codigo": "407-155-LE25",
+      "nombre": "MANTENIMIENTO PREVENTIVO Y CORRECTIVO LAVADORA TERMODESINFECTADORA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=407-155-LE25"
+    },
+    {
+      "codigo": "4193-38-LP25",
+      "nombre": "SERVICIOS DE ARRIENDO DE PLATAFORMA INFORMATICA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=4193-38-LP25"
+    },
+    {
+      "codigo": "4465-69-LE25",
+      "nombre": "SERVICIO DE RESONANCIAS NUCLEARES MAGNETICAS FETALES PARA PACIENTES AMBULATORIOS DEL HOSPITAL SAN JUAN DE DIOS DE CURICÓ",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=4465-69-LE25"
+    },
+    {
+      "codigo": "675-9-LE25",
+      "nombre": "SERVICIOS INFORMATICOS",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-29",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=675-9-LE25"
+    },
+    {
+      "codigo": "3656-204-LE25",
+      "nombre": "ADQUISICION JUEGOS INFANTILES Y EQUIPAMIENTO URBANO VARIOS SECTORES COMUNA DE REQUINOA",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-30",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=3656-204-LE25"
+    },
+    {
+      "codigo": "1057547-528-LE25",
+      "nombre": "“CONV. MANTENCIÓN PREVENTIVO Y CORRECTIVA SALA n° 3 DE AISLAMIENTO ",
+      "organismo": "No informado",
+      "fechaCierre": "2025-12-31",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057547-528-LE25"
+    },
+    {
+      "codigo": "1057438-24-LP25",
+      "nombre": "CONVENIO DE INSUMOS Y REACTIVOS DE LABORATORIO",
+      "organismo": "No informado",
+      "fechaCierre": "2026-01-06",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1057438-24-LP25"
+    },
+    {
       "codigo": "2408-263-LE25",
       "nombre": "CONSERVACIÓN DE INFRAESTRUCTURA DEPORTIVA. ",
       "organismo": "No informado",
@@ -40,6 +152,30 @@
       "fechaCierre": "2026-01-07",
       "tipo": "No especificado",
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1260-53-LP25"
+    },
+    {
+      "codigo": "4168-105-LP25",
+      "nombre": "SERVICIO DE PERSONAL OPERATIVO DE PARQUÍMETROS ",
+      "organismo": "No informado",
+      "fechaCierre": "2026-01-07",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=4168-105-LP25"
+    },
+    {
+      "codigo": "1064967-7-LE25",
+      "nombre": "SERVICIO DE ARRIENDO DE UNIDADES HIGIÉNICO SANITARIAS BACTERIOSTÁTICOS Y AROMATIZADORES PARA RECINTOS DE LA ESCUELA DE INVESTIGACIONES POLICIALES",
+      "organismo": "No informado",
+      "fechaCierre": "2026-01-09",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=1064967-7-LE25"
+    },
+    {
+      "codigo": "564953-96-LR25",
+      "nombre": "SERVICIO DE IMÁGENES DIAGNÓSTICAS",
+      "organismo": "No informado",
+      "fechaCierre": "2026-01-19",
+      "tipo": "No especificado",
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=564953-96-LR25"
     }
   ],
   "mineria": [],
