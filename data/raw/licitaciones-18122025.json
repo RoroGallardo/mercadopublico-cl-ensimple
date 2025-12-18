@@ -1,0 +1,67 @@
+{
+  "Cantidad": 10,
+  "FechaCreacion": "2025-12-18T11:33:45.9376154Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "CodigoExterno": "1057539-261-LE25",
+      "Nombre": "Servicio para procedimiento quirúrgico HIPEC",
+      "CodigoEstado": 5,
+      "FechaCierre": "2025-12-29T15:00:00"
+    },
+    {
+      "CodigoExterno": "1260-53-LP25",
+      "Nombre": "ARRIENDO EQUIPOS SISTEMA DE VOTACION Y MANTENCION",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-07T15:10:00"
+    },
+    {
+      "CodigoExterno": "1293138-62-LP25",
+      "Nombre": "%%0EQUIPOS DE APOYO CLINICO",
+      "CodigoEstado": 5,
+      "FechaCierre": "2025-12-29T15:00:00"
+    },
+    {
+      "CodigoExterno": "1549-211-LE25",
+      "Nombre": "ARRIENDO DE EQUIPO BOMBA DE VACÍO POR 12 MESES",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-05T15:01:00"
+    },
+    {
+      "CodigoExterno": "1549-192-LR25",
+      "Nombre": "ADQUISICIÓN DE VAJILLA DESECHABLE PARA HSJ.",
+      "CodigoEstado": 6,
+      "FechaCierre": "2025-12-18T15:00:00"
+    },
+    {
+      "CodigoExterno": "1057539-174-LQ25",
+      "Nombre": "ADQUISICIÓN DE SERVICIOS DE PERSONAL NO MEDICO PAR",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-18T08:27:15.69"
+    },
+    {
+      "CodigoExterno": "1057536-47-LP25",
+      "Nombre": "CAJAS DE INSTRUMENTAL PROYECTO DE CARDIOCIRUGIAS",
+      "CodigoEstado": 7,
+      "FechaCierre": "2025-12-18T08:07:44.4"
+    },
+    {
+      "CodigoExterno": "1057532-106-LE25",
+      "Nombre": "Convenio Servicios de Mantención de Equipos Médicos de establecimientos dependientes del SSO Periodo 2026-2027 2do. llamado",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-01T15:00:00"
+    },
+    {
+      "CodigoExterno": "3929-79-LR25",
+      "Nombre": "SERVICIO DE ARRIENDO SUMINISTRO IMPLEMENTACIÓN Y CONFIGURACIÓN DEL SISTEMA DE COMUNICACIÓN RADIAL DIGITAL PARA LA DIRECCIÓN DE SEGURIDAD PÚBLICA DE LA I. MUNICIPALIDAD DE VIÑA DEL MAR",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-11T09:00:00"
+    },
+    {
+      "CodigoExterno": "973154-1-LE25",
+      "Nombre": "CELEBRACIÓN FIN DE AÑO BIENESTAR SII VALPARAISO",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-05T12:00:00"
+    }
+  ]
+}
