@@ -1,6 +1,6 @@
 # Tecnología
 
-## Oportunidades del día (20251217)
+## Oportunidades del día (20251218)
 
 | Código | Organismo | Cierre | Nombre | Link |
 |--------|-----------|--------|--------|------|
