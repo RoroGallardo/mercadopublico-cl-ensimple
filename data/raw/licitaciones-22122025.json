@@ -1,0 +1,61 @@
+{
+  "Cantidad": 9,
+  "FechaCreacion": "2025-12-22T11:33:05.8751471Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "CodigoExterno": "1950-94-LP25",
+      "Nombre": "93-25 Suministro Oxígeno Líquido H.P",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-16T15:30:00"
+    },
+    {
+      "CodigoExterno": "4956-96-LR25",
+      "Nombre": "SUMINISTRO E INSTALACIÓN DE MOBILIARIO URBANO",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-23T15:01:00"
+    },
+    {
+      "CodigoExterno": "3447-256-L125",
+      "Nombre": "Suministro de Sillas y Otros para Municipalidad de Alto Hospicio",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-22T08:26:44.177"
+    },
+    {
+      "CodigoExterno": "979-77-LP25",
+      "Nombre": "Equipos de medición de ancho de neumático.",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-22T08:04:58.16"
+    },
+    {
+      "CodigoExterno": "1164956-34-O125",
+      "Nombre": "Mejoramiento Cubiertas Conjunto Hab. San Pablo",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-09-09T10:00:00"
+    },
+    {
+      "CodigoExterno": "558869-82-LE25",
+      "Nombre": "ADQ. DE SERVICIO DE MANTENCIÓN DE PROYECTORES CMDS",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-10T16:00:00"
+    },
+    {
+      "CodigoExterno": "5857-1-LE25",
+      "Nombre": "ATENCIONES DENTALES EJECUC. PROGRAMA ODONTOLOGICO",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-10T15:00:00"
+    },
+    {
+      "CodigoExterno": "932163-16-LP25",
+      "Nombre": "ARRIENDO DE TRES CAMIONETAS MUNICIPALIDAD DE LAGO",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-12T17:00:00"
+    },
+    {
+      "CodigoExterno": "979-63-LP25",
+      "Nombre": "Equipos para el Subdepartamento de Conservación de",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-03T15:01:00"
+    }
+  ]
+}
