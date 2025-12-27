@@ -1,0 +1,18 @@
+{
+  "fecha": "27122025",
+  "totalLicitaciones": 0,
+  "industrias": {
+    "tecnologia": {
+      "cantidad": 0,
+      "montoEstimado": 0
+    },
+    "mineria": {
+      "cantidad": 0,
+      "montoEstimado": 0
+    },
+    "iot": {
+      "cantidad": 0,
+      "montoEstimado": 0
+    }
+  }
+}
