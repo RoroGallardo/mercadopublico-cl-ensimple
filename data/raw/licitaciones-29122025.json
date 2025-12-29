@@ -1,0 +1,61 @@
+{
+  "Cantidad": 9,
+  "FechaCreacion": "2025-12-29T11:33:48.8577995Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "CodigoExterno": "4610-89-LP25",
+      "Nombre": "Construcción Cancha de Fútbol 7 Chile Chico",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-19T15:05:00"
+    },
+    {
+      "CodigoExterno": "5178-41-LR25",
+      "Nombre": "SERVICIO ENLACES RED DE DATOS FACULTAD DE MEDICINA",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-28T16:00:00"
+    },
+    {
+      "CodigoExterno": "827-26-O125",
+      "Nombre": "AIFO REP. TENENCIA PAJARITOS CF CARDENAL SAMORÉ",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-02-02T15:01:00"
+    },
+    {
+      "CodigoExterno": "1574-34-LE25",
+      "Nombre": "ARRIENDO DE VEHICULO PARA TRASLADO DE PERSONAS JUNJI COQUIMBO",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-29T08:03:05.713"
+    },
+    {
+      "CodigoExterno": "2279-138-LE25",
+      "Nombre": "SP 1193 SERVICIO DE TRASLADO DE PASAJEROS",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-29T07:53:15.48"
+    },
+    {
+      "CodigoExterno": "2279-124-LE25",
+      "Nombre": "SP 930 SERVICIO DE PRODUCCION DE EVENTOS ",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-29T07:55:35.43"
+    },
+    {
+      "CodigoExterno": "1221016-40-LR25",
+      "Nombre": "LICITACIÓN DE CUENTAS BANCARIAS Y OTROS SERVICIOS",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-25T18:00:00"
+    },
+    {
+      "CodigoExterno": "2277-40-LP25",
+      "Nombre": "CONSTRUCCION AREA VERDE DIAGONAL TRAVESIA COMUNA DE PUDAHUEL - CÓDIGO BIP 40063463-0",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-14T09:00:00"
+    },
+    {
+      "CodigoExterno": "4280-58-LE25",
+      "Nombre": "CAMBIO DE UBICACIÓN DE COLECTOR PUBLICO SEDE UNCO CATEMU",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-11T12:00:00"
+    }
+  ]
+}
