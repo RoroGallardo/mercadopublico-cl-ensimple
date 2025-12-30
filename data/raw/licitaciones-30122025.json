@@ -1,0 +1,103 @@
+{
+  "Cantidad": 16,
+  "FechaCreacion": "2025-12-30T11:33:34.2033629Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "CodigoExterno": "1232565-127-LE25",
+      "Nombre": "ADQ. SERVICIO MOVILIZACIÓN PROYECTO ULS 2577",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-08T17:00:00"
+    },
+    {
+      "CodigoExterno": "1549-213-LE25",
+      "Nombre": "SERV DE REMODELACIÓN DE CÁMARA DE VERDURAS HSJ",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-14T15:00:00"
+    },
+    {
+      "CodigoExterno": "4610-90-LE25",
+      "Nombre": "SEGUROS PARA BIENES MUEBLES E INMUEBLES",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-09T15:00:00"
+    },
+    {
+      "CodigoExterno": "4965-12-LE25",
+      "Nombre": "PLANIFICADOR ESTRATEGICO DE COMUNICACIONESY ADM DE REDES SOCIALES DE DEPTO. SALUD Y EDUCACION",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-07T17:00:00"
+    },
+    {
+      "CodigoExterno": "1068829-49-O125",
+      "Nombre": "PASADAS URBANAS - TRAVESÍAS, REGIÓN DE ÑUBLE 2024-2025",
+      "CodigoEstado": 6,
+      "FechaCierre": "2025-12-30T08:00:00"
+    },
+    {
+      "CodigoExterno": "4085-35-L125",
+      "Nombre": "SUMINISTRO AGUA PURIFICADA Y ARRIENDO DE DISPENSAD",
+      "CodigoEstado": 6,
+      "FechaCierre": "2025-12-30T08:30:00"
+    },
+    {
+      "CodigoExterno": "4967-10-LR25",
+      "Nombre": "ADQUISICIÓN DE VENDAS APOSITOS ADHESIVOS Y PARCHES TRANSPARENTES",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-30T08:21:35.547"
+    },
+    {
+      "CodigoExterno": "2994-38-LE25",
+      "Nombre": "CONVENIO SUMINISTRO ARRIENDO DE FURGON",
+      "CodigoEstado": 15,
+      "FechaCierre": "2025-12-30T08:13:43.457"
+    },
+    {
+      "CodigoExterno": "1057500-70-LQ25",
+      "Nombre": "MANTENCION INFRAESTRUCTURA OBRAS MENORES SSMSO",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-14T15:30:00"
+    },
+    {
+      "CodigoExterno": "1642-56-LE25",
+      "Nombre": "SERVICIO PROFESIONAL KINESIOLOGIA 2026",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-22T15:48:00"
+    },
+    {
+      "CodigoExterno": "1698-18-LR25",
+      "Nombre": "SERVICIO DE ASEO E INSUMOS",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-09-22T16:00:00"
+    },
+    {
+      "CodigoExterno": "2322-154-LE25",
+      "Nombre": "Contrato de suministro Arriendo y Mantención Gabinete Psicotecnico ATS II",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-26T15:01:00"
+    },
+    {
+      "CodigoExterno": "2322-155-LE25",
+      "Nombre": "Contrato de suministro Mantención Gabinete Psicotecnico ATS II",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-26T15:01:00"
+    },
+    {
+      "CodigoExterno": "2385-83-LE25",
+      "Nombre": "ADQUISICION ARMADO E INTALACION DE INVERNADEROS",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-05T15:00:00"
+    },
+    {
+      "CodigoExterno": "2906-17-LE25",
+      "Nombre": "ADQUISICIÓN DE GENERADOR Y TABLERO TRANSFERENCIA",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-12T14:25:00"
+    },
+    {
+      "CodigoExterno": "3559-13-LE25",
+      "Nombre": "Adq insumos de construcción seguridad y arriendo",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-03T16:07:00"
+    }
+  ]
+}
