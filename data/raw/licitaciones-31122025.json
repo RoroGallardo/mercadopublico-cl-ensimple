@@ -1,0 +1,109 @@
+{
+  "Cantidad": 17,
+  "FechaCreacion": "2025-12-31T11:32:42.5314103Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "CodigoExterno": "1057539-267-LP25",
+      "Nombre": "CONVENIO SUMINISTRO SONDA MARCAPASO",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-20T15:00:00"
+    },
+    {
+      "CodigoExterno": "2288-42-LE25",
+      "Nombre": "SERVICIO DE TRASLADO PACIENTES A TRATAM. DIÁLISIS COMUNA DE LOS VILOS",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-08T17:27:00"
+    },
+    {
+      "CodigoExterno": "2288-43-LE25",
+      "Nombre": "ADQUISICION DE ALIMENTO PELETIZADO PARA GANADO CAPRINO",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-06T13:21:00"
+    },
+    {
+      "CodigoExterno": "2429-20-LE25",
+      "Nombre": "ADQUISICION DE SWITH PARA LA I MUNICIPALIDAD DE ANTOFAGASTA",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-12T15:00:00"
+    },
+    {
+      "CodigoExterno": "3697-66-LE25",
+      "Nombre": "ADQUISICION DE IMPLEMENTACION DE AJEDREZ SENDA PREVIENE.-",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-09T15:00:00"
+    },
+    {
+      "CodigoExterno": "976-41-O125",
+      "Nombre": "Asesoría de Revisión Ampliación y Mejoramiento Aeropuerto AMB",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-03-18T10:00:00"
+    },
+    {
+      "CodigoExterno": "2078-41-LE25",
+      "Nombre": "SERVICIOS PROFESIONAL PARA COMPIN CONCEPCIÓN SC 23",
+      "CodigoEstado": 7,
+      "FechaCierre": "2025-12-31T08:26:02.207"
+    },
+    {
+      "CodigoExterno": "2078-38-LE25",
+      "Nombre": "SERVICIO DE PROFESIONAL SOCIOLOGO PARA UNIDAD DE EPIDEMIOLOGIA SC 21",
+      "CodigoEstado": 7,
+      "FechaCierre": "2025-12-31T08:16:21.993"
+    },
+    {
+      "CodigoExterno": "948354-173-LE25",
+      "Nombre": "ADQUISICIÓN DE EQUIPO BIOIMPEDANCIOMETRO",
+      "CodigoEstado": 7,
+      "FechaCierre": "2025-12-31T08:31:17.663"
+    },
+    {
+      "CodigoExterno": "1375753-17-LR25",
+      "Nombre": "SERVICIO DE TRANSPORTE ESCOLAR 2026",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-22T15:01:00"
+    },
+    {
+      "CodigoExterno": "1939-25-LE25",
+      "Nombre": "Adquisición de Barreras de hormigón y terminales",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-11T16:00:00"
+    },
+    {
+      "CodigoExterno": "2658-38-L125",
+      "Nombre": "CONVENIO SUMINISTRO MANTENCION BOMBAS SUMERGIBLES",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-26T16:16:00"
+    },
+    {
+      "CodigoExterno": "3085-79-L125",
+      "Nombre": "SERVICIO DE MANTENIMIENTO Y PINTADO INTERIOR A 01 VIVIENDA FISCAL.",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-29T15:00:00"
+    },
+    {
+      "CodigoExterno": "3841-36-L125",
+      "Nombre": "CONTRATACION SERVICIO DE TRASLADO Y ALIMENTACION USUARIOS PRODESAL PEMUCO",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-23T15:00:00"
+    },
+    {
+      "CodigoExterno": "438-101-LE25",
+      "Nombre": "SUMINISTRO DE OXIGENO MEDICINAL AIRE MEDICINAL CON ARRIENDO DE CILINDROS PARA LOS CENTROS DE SALUD DE LA COMUNA DE SAN RAMON",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-10T15:00:00"
+    },
+    {
+      "CodigoExterno": "5484-5-LE25",
+      "Nombre": "ADQUISICIÓN WORKSTATIONS PARA INVESTIGADOR IAI-UTA",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-06T16:30:00"
+    },
+    {
+      "CodigoExterno": "721703-49-LE25",
+      "Nombre": "Servicio de Soporte a Veeam Backup",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-03T15:01:00"
+    }
+  ]
+}
