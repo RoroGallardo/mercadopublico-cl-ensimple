@@ -1,0 +1,61 @@
+{
+  "Cantidad": 9,
+  "FechaCreacion": "2026-01-16T11:33:54.7036934Z",
+  "Version": "v1",
+  "Listado": [
+    {
+      "CodigoExterno": "1062807-1-LP26",
+      "Nombre": "SERVICIO DE DIGITACION Y APOYO ADMINISTRATIVO",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-26T15:00:00"
+    },
+    {
+      "CodigoExterno": "1389488-3-LE26",
+      "Nombre": "SEGUNDO LLAMADO SERVICIO DE VIGILANCIA EDIFICIO ADMINISTRATIVO SLEP LOS ÁLAMOS",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-26T17:00:00"
+    },
+    {
+      "CodigoExterno": "1952-4-LP26",
+      "Nombre": "CONVENIO SUMINISTRO PAQUETES DE CIRUGIA GENERAL PARA EL HOSPITAL VILLARRICA",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-02-06T15:30:00"
+    },
+    {
+      "CodigoExterno": "1989-2-LE26",
+      "Nombre": "FLETE ENSERES Y VEHÍCULO TRAMO IQQ-I.PASCUA",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-01-27T15:00:00"
+    },
+    {
+      "CodigoExterno": "2069-7-LP26",
+      "Nombre": "CGM MANT PREV Y CORR ESTERILIZADOR PERÓXIDO DE HID",
+      "CodigoEstado": 5,
+      "FechaCierre": "2026-02-05T16:00:00"
+    },
+    {
+      "CodigoExterno": "1057977-23-LE25",
+      "Nombre": "Habilitacion Lavanderia Hospital de Llanquihue",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-12-05T12:00:00"
+    },
+    {
+      "CodigoExterno": "2258-241-LQ25",
+      "Nombre": "VALVULAS CARDIOLOGICAS",
+      "CodigoEstado": 8,
+      "FechaCierre": "2025-11-12T13:23:00"
+    },
+    {
+      "CodigoExterno": "3595-43-L125",
+      "Nombre": "ITO FRIL 2025 Construccion y Reposicion de Garita",
+      "CodigoEstado": 8,
+      "FechaCierre": "2026-01-06T16:30:00"
+    },
+    {
+      "CodigoExterno": "558836-9-LP25",
+      "Nombre": "ADQUISICIÓN DE SERVICIO PARA DESARROLLO DE EVENTOS",
+      "CodigoEstado": 8,
+      "FechaCierre": "2026-01-12T18:49:00"
+    }
+  ]
+}
