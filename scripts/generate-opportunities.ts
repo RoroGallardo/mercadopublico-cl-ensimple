@@ -88,7 +88,7 @@ async function main() {
   const licitaciones = await getLatestRaw()
   const fecha = new Date().toISOString().slice(0, 10).replace(/-/g, '')
 
-  const opportunities: Record<string, any[]> = {
+  const opportunities: Record<string, any> = {
     fecha,
     tecnologia: [],
     mineria: [],
@@ -116,7 +116,7 @@ async function main() {
   for (const industry of ['tecnologia', 'mineria', 'iot']) {
     opportunities[industry] = opportunities[industry]
       .sort(
-        (a, b) =>
+        (a: any, b: any) =>
           new Date(a.fechaCierre).getTime() -
           new Date(b.fechaCierre).getTime()
       )

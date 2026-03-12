@@ -83,7 +83,13 @@ async function fetchLicitaciones(fecha: string): Promise<ApiResponse> {
     throw new Error(`Error API Mercado Público (${res.status})`)
   }
 
-  return res.json()
+  const data = await res.json()
+
+  if (data.Codigo && data.Codigo !== 200) {
+    throw new Error(`Error API Mercado Público: ${data.Mensaje ?? data.Codigo}`)
+  }
+
+  return data as ApiResponse
 }
 
 async function ensureDir(dir: string) {
@@ -107,7 +113,11 @@ async function main() {
   const rawFile = path.join(rawDir, `licitaciones-${fecha}.json`)
   await fs.writeFile(rawFile, JSON.stringify(response, null, 2))
 
-  const summary = {
+  const summary: {
+    fecha: string
+    totalLicitaciones: number
+    industrias: Record<string, { cantidad: number; montoEstimado: number }>
+  } = {
     fecha,
     totalLicitaciones: response.Cantidad,
     industrias: {
