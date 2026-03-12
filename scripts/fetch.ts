@@ -3,11 +3,7 @@ import path from 'path'
 import 'dotenv/config'
 
 const BASE_URL = 'https://api.mercadopublico.cl/servicios/v1/publico'
-const TICKET = process.env.MERCADOPUBLICO_TICKET
-
-if (!TICKET) {
-  throw new Error('Falta la variable de entorno MERCADOPUBLICO_TICKET')
-}
+const TICKET = process.env.MERCADOPUBLICO_TICKET ?? '52FCBF17-A2BD-40ED-A94F-882B3FDFE915'
 
 type Licitacion = {
   CodigoExterno: string
@@ -117,7 +113,7 @@ async function main() {
     }
   }
 
-  for (const lic of response.Listado) {
+  for (const lic of (response.Listado ?? [])) {
     const text = `${lic.Nombre} ${lic.Descripcion}`
     const industry = classifyIndustry(text)
 

@@ -65,12 +65,20 @@ function buildUrl(codigo: string): string {
   return `https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=${codigo}`
 }
 
+function parseDDMMYYYY(filename: string): number {
+  // filename format: licitaciones-DDMMYYYY.json
+  const match = filename.match(/licitaciones-(\d{2})(\d{2})(\d{4})\.json/)
+  if (!match) return 0
+  const [, dd, mm, yyyy] = match
+  return parseInt(`${yyyy}${mm}${dd}`, 10)
+}
+
 async function getLatestRaw(): Promise<Licitacion[]> {
   const files = await fs.readdir(RAW_DIR)
 
   const targets = files
     .filter(f => f.startsWith('licitaciones-') && f.endsWith('.json'))
-    .sort()
+    .sort((a, b) => parseDDMMYYYY(a) - parseDDMMYYYY(b))
     .reverse()
 
   if (!targets.length) {
@@ -81,7 +89,7 @@ async function getLatestRaw(): Promise<Licitacion[]> {
     await fs.readFile(path.join(RAW_DIR, targets[0]), 'utf-8')
   )
 
-  return content.Listado as Licitacion[]
+  return (content.Listado ?? []) as Licitacion[]
 }
 
 async function main() {
