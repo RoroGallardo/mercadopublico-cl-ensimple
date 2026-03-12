@@ -23,7 +23,7 @@ async function main() {
 
   await fs.mkdir(BADGES_DIR, { recursive: true })
 
-  for (const industry of ['tecnologia', 'mineria', 'iot']) {
+  for (const industry of ['tecnologia', 'mineria']) {
     const count = data[industry]?.length ?? 0
 
     const badge = {

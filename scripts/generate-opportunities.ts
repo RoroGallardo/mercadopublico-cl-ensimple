@@ -34,15 +34,6 @@ const INDUSTRY_KEYWORDS: Record<string, string[]> = {
     'relaves',
     'extracción',
     'perforación'
-  ],
-  iot: [
-    'iot',
-    'sensor',
-    'telemetría',
-    'automatización',
-    'monitoreo',
-    'scada',
-    'industria 4.0'
   ]
 }
 
@@ -99,8 +90,7 @@ async function main() {
   const opportunities: Record<string, any[]> = {
     fecha,
     tecnologia: [],
-    mineria: [],
-    iot: []
+    mineria: []
   }
 
   for (const lic of licitaciones) {
@@ -121,7 +111,7 @@ async function main() {
     })
   }
 
-  for (const industry of ['tecnologia', 'mineria', 'iot']) {
+  for (const industry of ['tecnologia', 'mineria']) {
     opportunities[industry] = opportunities[industry]
       .sort(
         (a, b) =>

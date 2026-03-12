@@ -40,15 +40,6 @@ const INDUSTRY_KEYWORDS = {
     'relaves',
     'perforación',
     'extracción'
-  ],
-  iot: [
-    'iot',
-    'sensor',
-    'telemetría',
-    'automatización',
-    'monitoreo',
-    'scada',
-    'industria 4.0'
   ]
 }
 
@@ -108,8 +99,7 @@ async function main() {
     totalLicitaciones: response.Cantidad,
     industrias: {
       tecnologia: { cantidad: 0, montoEstimado: 0 },
-      mineria: { cantidad: 0, montoEstimado: 0 },
-      iot: { cantidad: 0, montoEstimado: 0 }
+      mineria: { cantidad: 0, montoEstimado: 0 }
     }
   }
 

@@ -17,13 +17,11 @@ type OpportunitiesFile = {
   fecha: string
   tecnologia?: Opportunity[]
   mineria?: Opportunity[]
-  iot?: Opportunity[]
 }
 
 const INDUSTRY_META: Record<string, { title: string }> = {
   tecnologia: { title: 'Tecnología' },
-  mineria: { title: 'Minería' },
-  iot: { title: 'IoT / Automatización' }
+  mineria: { title: 'Minería' }
 }
 
 /* -------------------------

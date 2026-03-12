@@ -29,16 +29,12 @@ Todo queda versionado y visible.
 - **Minería**  
   Servicios, suministros y soluciones vinculadas a operación minera.
 
-- **IoT / Automatización**  
-  Sensores, monitoreo, telemetría, automatización industrial.
-
 ---
 
 ## Acceso directo a las oportunidades de hoy
 
 - 👉 [Tecnología](industries/tecnologia.md)
 - 👉 [Minería](industries/mineria.md)
-- 👉 [IoT](industries/iot.md)
 
 Cada listado incluye:
 - código de licitación
