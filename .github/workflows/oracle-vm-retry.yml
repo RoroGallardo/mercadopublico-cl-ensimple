@@ -1,0 +1,95 @@
+name: Oracle VM Free Tier - Reintento Continuo
+
+on:
+  workflow_dispatch:
+    inputs:
+      retry_interval:
+        description: "Segundos entre reintentos (default: 60)"
+        required: false
+        default: "60"
+      max_retries:
+        description: "Máximo de reintentos (0 = infinito dentro del tiempo límite)"
+        required: false
+        default: "0"
+  schedule:
+    # Ejecuta cada 5 minutos (el mínimo de GitHub Actions)
+    # Descomenta si quieres ejecución automática continua:
+    # - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *'
+
+jobs:
+  create-vm:
+    name: Crear VM Oracle Free Tier
+    runs-on: ubuntu-latest
+    timeout-minutes: 355  # ~6h, límite de GitHub Actions por job
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verificar si VM ya existe (skip si ya fue creada)
+        id: check_vm
+        run: |
+          if [ -f "data/oracle-vm-created.json" ]; then
+            echo "vm_exists=true" >> "$GITHUB_OUTPUT"
+            echo "La VM ya fue creada previamente:"
+            cat data/oracle-vm-created.json
+          else
+            echo "vm_exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configurar Python
+        if: steps.check_vm.outputs.vm_exists == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias OCI
+        if: steps.check_vm.outputs.vm_exists == 'false'
+        run: pip install oci
+
+      - name: Crear VM con reintento continuo
+        if: steps.check_vm.outputs.vm_exists == 'false'
+        env:
+          OCI_USER_OCID: ${{ secrets.OCI_USER_OCID }}
+          OCI_FINGERPRINT: ${{ secrets.OCI_FINGERPRINT }}
+          OCI_PRIVATE_KEY: ${{ secrets.OCI_PRIVATE_KEY }}
+          OCI_TENANCY_OCID: ${{ secrets.OCI_TENANCY_OCID }}
+          OCI_REGION: ${{ secrets.OCI_REGION }}
+          OCI_COMPARTMENT_OCID: ${{ secrets.OCI_COMPARTMENT_OCID }}
+          OCI_SUBNET_OCID: ${{ secrets.OCI_SUBNET_OCID }}
+          OCI_IMAGE_OCID: ${{ secrets.OCI_IMAGE_OCID }}
+          OCI_SHAPE: ${{ secrets.OCI_SHAPE || 'VM.Standard.A1.Flex' }}
+          OCI_OCPUS: ${{ secrets.OCI_OCPUS || '4' }}
+          OCI_MEMORY_GB: ${{ secrets.OCI_MEMORY_GB || '24' }}
+          OCI_INSTANCE_NAME: ${{ secrets.OCI_INSTANCE_NAME || 'free-tier-vm' }}
+          OCI_SSH_PUBLIC_KEY: ${{ secrets.OCI_SSH_PUBLIC_KEY }}
+          RETRY_INTERVAL_SECONDS: ${{ github.event.inputs.retry_interval || '60' }}
+          MAX_RETRIES: ${{ github.event.inputs.max_retries || '0' }}
+        run: python scripts/create-oracle-vm.py
+
+      - name: Confirmar y pushear resultado si VM fue creada
+        if: steps.check_vm.outputs.vm_exists == 'false' && success()
+        run: |
+          if [ -f "data/oracle-vm-created.json" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/oracle-vm-created.json
+            git commit -m "feat: Oracle Free Tier VM creada exitosamente
+
+            Instancia creada y guardada en data/oracle-vm-created.json"
+            git push
+          fi
+
+      - name: Resumen del resultado
+        if: always()
+        run: |
+          if [ -f "data/oracle-vm-created.json" ]; then
+            echo "## VM Oracle Free Tier Creada" >> "$GITHUB_STEP_SUMMARY"
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat data/oracle-vm-created.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "## Estado: Sin capacidad disponible" >> "$GITHUB_STEP_SUMMARY"
+            echo "El workflow reintentará automáticamente en 5 minutos." >> "$GITHUB_STEP_SUMMARY"
+          fi
